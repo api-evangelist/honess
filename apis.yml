@@ -1,8 +1,29 @@
 aid: honess
-name: honess
-description: honess is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: HONESS (Shanghai Hongji Environmental Protection)
+description: HONESS (泓济环保 / Shanghai Hongji Environmental Protection, honess.cn) is a Chinese
+  environmental services provider founded in 2006, specializing in industrial wastewater treatment and
+  the broader treatment of the "three wastes" (wastewater, waste gas, and hazardous waste). It offers
+  customized environmental solutions, environmental equipment manufacturing and integration, EPC delivery
+  for energy and chemical full-water systems, fine-chemical waste treatment, process packages for new and
+  upgraded wastewater plants, and technology-enabled ("smart") digital operations and maintenance. The
+  company holds top-grade design and contracting qualifications, has delivered 500+ design/build/operation
+  projects for 300+ clients across China and abroad, and operates manufacturing and R&D bases in Shanghai
+  and Anhui. It is not a developer/API company; the public surface is a WordPress corporate site with no
+  developer portal, API documentation, SDKs, or OAuth. Surfaced as a portfolio company of Qiming Venture
+  Partners and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/honess/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.honess.cn/wp-content/uploads/2025/03/cropped-%E6%B3%93%E6%B5%8E%E7%8E%AF%E4%BF%9Dlogo-1.webp
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Environmental Services
+- Wastewater Treatment
+- Water Treatment
+- Environmental Engineering
+- Industrial
+- Manufacturing
+- China
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/honess-domain-security.yml
 - type: Website
   url: https://honess.cn
+- type: Blog
+  url: https://www.honess.cn/honess-news/
+- type: PrivacyPolicy
+  url: https://www.honess.cn/privacy-policy/
+- type: Support
+  url: https://www.honess.cn/honess-contact/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

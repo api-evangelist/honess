@@ -1,0 +1,21 @@
+{
+  "repo": "honess",
+  "feeds": [
+    {
+      "source": "https://www.honess.cn/feed/",
+      "feed_url": "https://www.honess.cn/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://honess.cn",
+      "feed_url": "https://www.honess.cn/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 7,
+  "fetched": "2026-07-25T15:00:33Z"
+}
