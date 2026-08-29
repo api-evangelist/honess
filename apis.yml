@@ -12,6 +12,17 @@ description: HONESS (泓济环保 / Shanghai Hongji Environmental Protection, ho
   developer portal, API documentation, SDKs, or OAuth. Surfaced as a portfolio company of Qiming Venture
   Partners and profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/honess/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
